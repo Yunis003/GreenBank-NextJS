@@ -1,11 +1,11 @@
-import Logo from '../../assets/icons/Exclude.svg'
-import Header from '/src/app/Styles/Header.module.scss'
+// import Logo from '../../assets/icons/Exclude.svg'
+import '../Styles/header.css'
 export default function Header() {
   return (
     <header>
-      <div className="logo-side">
-        <img src={Logo} alt="logo" />
-        <p className='logo-header'>GreenBank</p>
+      <div className="logoSide">
+        {/* <img src={Logo} alt="logo" /> */}
+        <p className="logoHeader">GreenBank</p>
       </div>
       <nav>
         <ul>
@@ -16,7 +16,7 @@ export default function Header() {
           <li><a href="#">FAQs</a></li>
         </ul>
       </nav>
-      <button className='header-btn'>Contact</button>
+      <button className="headerBtn">Contact</button>
     </header>
   )
 }
