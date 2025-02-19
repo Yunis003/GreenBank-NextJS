@@ -1,5 +1,6 @@
 import Discover from "./Components/Discover";
 import Header from "./Components/Header";
+import Partners from "./Components/Partners";
 import Statistics from "./Components/Statistics";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Discover />
       <Statistics />
+      <Partners />
     </div>
   );
 }
