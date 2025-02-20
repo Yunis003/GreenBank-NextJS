@@ -1,5 +1,4 @@
-import '../Partials/_gradientText.scss'
-
+import '../gradient.css'
 export default function GradientText({
   children,
   className = "",
