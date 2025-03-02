@@ -1,5 +1,5 @@
 'use client'; // Add this at the top since we're using client-side features
-
+import GradientText from './GradientText';
 import { useState, useEffect, useRef } from 'react';
 
 const Statistics = () => {
