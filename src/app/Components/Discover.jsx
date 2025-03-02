@@ -17,7 +17,7 @@ const Discover = () => {
                 <Image src="/users.svg" alt="users" width={300} height={300} />
             </div>  
             <div className="flex w-[49%] justify-center items-center relative card-container">
-                <CreditCard />
+                <CreditCard background='rgba(185, 190, 189, 0.4)' rotate='15deg' skew='0deg'/>
                 <Image src="/discover.svg" alt="users" width={420} height={420} className='circle'/>
         </div>
     </div>

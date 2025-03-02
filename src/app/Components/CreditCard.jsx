@@ -1,13 +1,15 @@
 import React from 'react';
 import './credit-card.css';
 import Image from 'next/image';
-const CreditCard = () => {
+const CreditCard = (props) => {
     return (
         <div className="credit-card" style={{ 
             // backdropFilter: 'blur(16px)',
             // backgroundColor: 'rgba(255, 255, 255, 0.1)'
-            background: 'rgba(185, 190, 189, 0.4)',
+            background: props.background,
             backdropFilter: 'blur(15px)',
+            transform: `rotate(${props.rotate})`,
+            transform: `skew(${props.skew})`,
         }}>
             <div className="credit-card-master">
                 <Image src="/masterc.svg" alt="masterc" width={50} height={50} />
