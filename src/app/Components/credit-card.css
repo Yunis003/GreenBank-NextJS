@@ -1,0 +1,45 @@
+.credit-card{
+    transform: rotate(15deg);
+    width: 520px;
+    padding:40px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 30px;
+}
+.credit-card-master{
+    display: flex;
+    justify-content: space-between;
+}
+.credit-card-informations{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-num{
+    font-size: 30px;
+}
+.credit-card-dates{
+    display: flex;
+    gap: 50px;
+    position: relative;
+}
+.name, .date{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.chip{
+   position: absolute;
+   right: 0;
+   bottom: -10px;
+}
+.card-container{
+    position: relative;
+}
+.circle{
+    position: absolute;
+    z-index: -1;
+    right: -9.5rem;
+    top: -80px;
+}
