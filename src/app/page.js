@@ -1,5 +1,6 @@
 import Discover from "./Components/Discover";
 import Header from "./Components/Header";
+import Offer from "./Components/Offer";
 import Partners from "./Components/Partners";
 import Statistics from "./Components/Statistics";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <Discover />
       <Statistics />
       <Partners />
+      <Offer />
     </div>
   );
 }
