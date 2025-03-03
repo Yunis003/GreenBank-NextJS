@@ -16,11 +16,15 @@ const Discover = () => {
                 <button className='start-btn bg-[#2BB32A] text-white border-none rounded-[4rem] px-8 py-4 flex items-center justify-center gap-4 hover:bg-[#1b721b] cursor-pointer'>Get Started <i className="fa-solid fa-arrow-right"></i></button>
                 <Image src="/users.svg" alt="users" width={300} height={300} />
             </div>  
-            <div className="flex w-[49%] justify-center items-center relative card-container">
-                <CreditCard background='rgba(185, 190, 189, 0.4)' rotate='15deg' skew='0deg'/>
+            <div className="flex w-[49%] justify-center items-center relative">
+                <div style={{ transform: 'rotate(15deg)', zIndex: 30 }}>
+                    <CreditCard 
+                        background='rgba(185, 190, 189, 0.4)'
+                    />
+                </div>
                 <Image src="/discover.svg" alt="users" width={420} height={420} className='circle'/>
+            </div>
         </div>
-    </div>
     );
 }
 

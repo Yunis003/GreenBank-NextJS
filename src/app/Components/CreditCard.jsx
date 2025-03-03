@@ -8,7 +8,7 @@ const CreditCard = (props) => {
             // backgroundColor: 'rgba(255, 255, 255, 0.1)'
             background: props.background,
             backdropFilter: 'blur(15px)',
-            transform: `rotate(${props.rotate})`,
+            // transform:`rotate(${props.rotate})`,
             transform: `skew(${props.skew})`,
         }}>
             <div className="credit-card-master">

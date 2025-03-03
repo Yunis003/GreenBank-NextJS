@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Offer = () => {
     return (
         <div className='w-full flex flex-col gap-[50px]'>
-            <h2 className='text-[40px] text-center'>What do we offer?</h2>
+            <p className='text-[40px] text-center'>What do we offer?</p>
             <div className='flex justify-between items-center'>
                 <div className="flex justify-center items-center gap-4">
                     <Image src='/f.svg' alt='security' width={70} height={70} />

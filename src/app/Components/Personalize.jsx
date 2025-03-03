@@ -19,7 +19,7 @@ const Personalize = () => {
     const revealAmount = scrollY > startScroll ? Math.min((scrollY - startScroll) / 5, 80) : 0;
 
     return (
-        <div className="w-full flex items-center justify-between">
+        <div className="w-full flex items-center justify-between ">
             <div className="flex flex-col gap-9 items-start w-[49%] relative">
                 <h1 className="text-[2.7rem] font-bold animate-fadeIn">
                     Design your personalized credit card.
