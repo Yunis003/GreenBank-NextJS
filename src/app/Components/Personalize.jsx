@@ -20,7 +20,7 @@ const Personalize = () => {
 
     return (
         <div className="w-full flex items-center justify-between">
-            <div className="flex flex-col gap-9 items-start w-[39%] relative">
+            <div className="flex flex-col gap-9 items-start w-[49%] relative">
                 <h1 className="text-[2.7rem] font-bold animate-fadeIn">
                     Design your personalized credit card.
                 </h1>
@@ -33,20 +33,20 @@ const Personalize = () => {
                 </button>
             </div>
 
-            <div className="flex w-[49%] relative h-[400px] bg-yellow-200">
+            <div className="flex w-[49%] relative h-[400px]">
                 {/* 1-ci kart (tam görünən) */}
-                <div className="absolute left-0 top-0 z-30">
-                    <CreditCard background="rgba(185, 190, 189, 0.4)" skew="-15deg" />
+                <div className="absolute right-0 top-0 z-30">
+                    <CreditCard background="rgba(65, 68, 67, 0.4)" skew="-15deg" />
                 </div>
 
                 {/* 2-ci kart (aşağı doğru açılır) */}
                 <div
-                    className="absolute left-0 transition-all duration-[2000ms]"
+                    className="absolute right-0 transition-all duration-[2000ms]"
                     style={{
-                        top: `0px`, // Başlanğıcda eyni nöqtədə
+                        top: `0px`,
                         transform: `translateY(${revealAmount}px)`,
                         zIndex: 20,
-                        opacity: revealAmount > 0 ? 1 : 0.3, // Yavaş-yavaş görünür
+                        opacity: revealAmount > 0 ? 1 : 0.3,
                     }}
                 >
                     <CreditCard background="#2BB32A" skew="-15deg" />
@@ -54,12 +54,12 @@ const Personalize = () => {
 
                 {/* 3-cü kart (aşağı doğru açılır) */}
                 <div
-                    className="absolute left-0 transition-all duration-[2000ms]"
+                    className="absolute right-0 transition-all duration-[2000ms]"
                     style={{
-                        top: `0px`, // Başlanğıcda eyni nöqtədə
+                        top: `0px`,
                         transform: `translateY(${revealAmount * 2.4}px)`,
                         zIndex: 10,
-                        opacity: revealAmount > 0 ? 1 : 0.3, // Yavaş-yavaş görünür
+                        opacity: revealAmount > 0 ? 1 : 0.3,
                     }}
                 >
                     <CreditCard background="black" skew="-15deg" />
