@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Offer = () => {
     return (
-        <div className='w-full flex flex-col gap-[50px]'>
+        <div className='w-full flex flex-col gap-[50px] z-50'>
             <p className='text-[40px] text-center'>What do we offer?</p>
             <div className='flex justify-between items-center'>
                 <div className="flex justify-center items-center gap-4">

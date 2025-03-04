@@ -10,7 +10,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div className="w-[85%] h-screen flex flex-col gap-40 relative">
-      {/* <Image src="/dora.svg" alt="bg" width={2000} height={2000} className="absolute index-[-99]"/> */}
+      <Image src="/dora.svg" alt="bg" width={1300} height={1200} className="absolute index-[-99]"/>
       <Header />
       <Discover />
       <Statistics />
