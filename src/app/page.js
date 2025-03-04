@@ -6,6 +6,7 @@ import Partners from "./Components/Partners";
 import Personalize from "./Components/Personalize";
 import Statistics from "./Components/Statistics";
 import Image from 'next/image';
+import Comments from "./Components/Comments";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Offer />
       <Personalize />
       <Find />
+      <Comments />
     </div>
   ); 
 }
