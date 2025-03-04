@@ -7,6 +7,7 @@ import Personalize from "./Components/Personalize";
 import Statistics from "./Components/Statistics";
 import Image from 'next/image';
 import Comments from "./Components/Comments";
+import FAQ from "./Components/FAQ";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Personalize />
       <Find />
       <Comments />
+      <FAQ />
     </div>
   ); 
 }
