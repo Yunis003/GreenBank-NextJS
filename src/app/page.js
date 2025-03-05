@@ -8,6 +8,7 @@ import Statistics from "./Components/Statistics";
 import Image from 'next/image';
 import Comments from "./Components/Comments";
 import FAQ from "./Components/FAQ";
+import Footer from "./Components/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Find />
       <Comments />
       <FAQ />
+      <Footer />
     </div>
   ); 
 }

@@ -8,11 +8,11 @@ const Find = () => {
 
     useEffect(() => {
         const handleResize = () => {
-            setIsExpanded(window.innerWidth > 1600);
+            setIsExpanded(window.innerWidth > 1800);
         };
 
         const handleScroll = () => {
-            setIsScrolled(window.scrollY > 1600);
+            setIsScrolled(window.scrollY > 1800);
         };
 
         window.addEventListener("resize", handleResize);
