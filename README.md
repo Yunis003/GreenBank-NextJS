@@ -12,5 +12,5 @@ The Green Bank Project aims to provide a platform for users to manage their fina
 -   **React:**  A JavaScript library for building user interfaces.
 -   **Next.js:** A React framework for server-side rendering and static site generation.
 -   **Tailwind CSS:** A utility-first CSS framework for rapidly styling the application.
--   **UI Kits:**  (Specify the UI kits used, e.g., Material UI, Ant Design, etc.)
--   **(Other Tools)**
+-   **UI Kits:** 
+-   **Other Tools**
